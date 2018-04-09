@@ -7,6 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1808F333202572740054AE5C /* CHSmallDayLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 1808F332202572740054AE5C /* CHSmallDayLoading.m */; };
+		1825C09420261B29003FB123 /* CHSmallDayShowShopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1825C09320261B29003FB123 /* CHSmallDayShowShopView.m */; };
+		1825C0A32026D8C2003FB123 /* TipsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1825C09E2026D8C2003FB123 /* TipsModel.m */; };
+		1825C0A42026D8C2003FB123 /* ChsmalldayshopmodelModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1825C0A12026D8C2003FB123 /* ChsmalldayshopmodelModel.m */; };
+		1825C0A62026D998003FB123 /* SpaceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1825C0A52026D998003FB123 /* SpaceModel.m */; };
+		1825C0A92026F135003FB123 /* CHSmallDayLabelCollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1825C0A82026F135003FB123 /* CHSmallDayLabelCollView.m */; };
+		1825C0AD20285D76003FB123 /* CHSmallDayShowUserCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1825C0AC20285D76003FB123 /* CHSmallDayShowUserCollectionViewCell.m */; };
+		1825C0B020286345003FB123 /* UIImageView+Yuan.m in Sources */ = {isa = PBXBuildFile; fileRef = 1825C0AF20286345003FB123 /* UIImageView+Yuan.m */; };
+		1825C0B3202864F1003FB123 /* UIImage+Yuan.m in Sources */ = {isa = PBXBuildFile; fileRef = 1825C0B2202864F1003FB123 /* UIImage+Yuan.m */; };
+		1825C0B620286A99003FB123 /* CHSmalldayShowAllView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1825C0B520286A99003FB123 /* CHSmalldayShowAllView.m */; };
+		1825C0BB20287BE8003FB123 /* ChsmalldayshowusermodelModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1825C0B920287BE8003FB123 /* ChsmalldayshowusermodelModel.m */; };
+		1827542D20188C890022BA35 /* CHTestTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 1827542C20188C890022BA35 /* CHTestTag.m */; };
+		182754302018927F0022BA35 /* CHSmallShopModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1827542F2018927F0022BA35 /* CHSmallShopModel.m */; };
+		1827543320189CB80022BA35 /* CHSmallDayTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1827543220189CB80022BA35 /* CHSmallDayTagView.m */; };
+		182754362018A73B0022BA35 /* CHSmallDayTagCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 182754352018A73B0022BA35 /* CHSmallDayTagCollectionViewCell.m */; };
+		1827545F201DB2BE0022BA35 /* CHSmallDayTineLable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1827545E201DB2BE0022BA35 /* CHSmallDayTineLable.m */; };
+		18275462201DFDC50022BA35 /* CHSmallDayCityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18275461201DFDC50022BA35 /* CHSmallDayCityViewController.m */; };
+		18275465201E01EA0022BA35 /* CHSmallDayCityCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18275464201E01EA0022BA35 /* CHSmallDayCityCollectionViewCell.m */; };
+		18275468201E0B6B0022BA35 /* CHSmallDayHeaderCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18275467201E0B6B0022BA35 /* CHSmallDayHeaderCollectionReusableView.m */; };
+		1827546B201E24700022BA35 /* CHSmallDayHomePageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1827546A201E24700022BA35 /* CHSmallDayHomePageTableViewController.m */; };
+		1827546E201E25700022BA35 /* UIBarButtonItem+CHExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1827546D201E25700022BA35 /* UIBarButtonItem+CHExtension.m */; };
 		188F2CE81FD6B53300132697 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 188F2CE71FD6B53300132697 /* main.m */; };
 		188F2CEB1FD6B53300132697 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 188F2CEA1FD6B53300132697 /* AppDelegate.m */; };
 		188F2CEE1FD6B53300132697 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188F2CED1FD6B53300132697 /* ViewController.m */; };
@@ -19,13 +40,20 @@
 		188F2D651FF6787100132697 /* CHNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188F2D641FF6787100132697 /* CHNavController.m */; };
 		188F2D841FF67EFB00132697 /* UIView+CHExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 188F2D831FF67EFB00132697 /* UIView+CHExtension.m */; };
 		188F2D871FF681B800132697 /* CHTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188F2D861FF681B800132697 /* CHTabBarViewController.m */; };
-		188F2D8A1FF6831000132697 /* CHHomePageCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188F2D891FF6831000132697 /* CHHomePageCollectionViewController.m */; };
 		188F2D8D1FF6CA8D00132697 /* CHNetWorking.m in Sources */ = {isa = PBXBuildFile; fileRef = 188F2D8C1FF6CA8D00132697 /* CHNetWorking.m */; };
 		18BE1B6A20133BC000C5B7DB /* CHSmallDayBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BE1B6920133BC000C5B7DB /* CHSmallDayBanner.m */; };
 		18BE1B6D20136F2600C5B7DB /* CHSmallDayCBDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BE1B6C20136F2600C5B7DB /* CHSmallDayCBDView.m */; };
 		18BE1B702014B04600C5B7DB /* CHSmallDayCBDCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BE1B6F2014B04600C5B7DB /* CHSmallDayCBDCollectionViewCell.m */; };
+		18D5E21820289C50001D7480 /* CHSmallDayRecommendCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D5E21720289C50001D7480 /* CHSmallDayRecommendCollectionViewCell.m */; };
+		18D5E21E2028C9C0001D7480 /* ChsmalldayreshopmodelModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D5E21D2028C9C0001D7480 /* ChsmalldayreshopmodelModel.m */; };
+		18D5E2252028CBBC001D7480 /* CHSmallDayRe.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D5E2242028CBBC001D7480 /* CHSmallDayRe.m */; };
 		18EA7CF22011CB950010F5EC /* CHBannerList.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EA7CF12011CB950010F5EC /* CHBannerList.m */; };
 		18EA7CF520121B6A0010F5EC /* HomePageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EA7CF420121B6A0010F5EC /* HomePageModel.m */; };
+		18F52D8720233D750043D100 /* CHSmallDayCellHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F52D8620233D750043D100 /* CHSmallDayCellHeader.m */; };
+		18F52D8A202343970043D100 /* CHSmallDayFourButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F52D89202343970043D100 /* CHSmallDayFourButtonView.m */; };
+		18F52D8D202343D60043D100 /* CHSmallDayUpImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F52D8C202343D60043D100 /* CHSmallDayUpImage.m */; };
+		18FC6348201EE804002BACA8 /* CHSmallDayHomePageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC6347201EE804002BACA8 /* CHSmallDayHomePageTableViewCell.m */; };
+		18FC635E20203EC4002BACA8 /* CHSmallDayReFresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC635D20203EC4002BACA8 /* CHSmallDayReFresh.m */; };
 		8D2BA4C9C19320A8169BB756 /* libPods-smallDay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24DAEF4F3FC98177B9E4A7AF /* libPods-smallDay.a */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +75,51 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1808F331202572740054AE5C /* CHSmallDayLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHSmallDayLoading.h; sourceTree = "<group>"; };
+		1808F332202572740054AE5C /* CHSmallDayLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHSmallDayLoading.m; sourceTree = "<group>"; };
+		1825C09220261B29003FB123 /* CHSmallDayShowShopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHSmallDayShowShopView.h; sourceTree = "<group>"; };
+		1825C09320261B29003FB123 /* CHSmallDayShowShopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHSmallDayShowShopView.m; sourceTree = "<group>"; };
+		1825C09B2026D8C2003FB123 /* Shop_OwnerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shop_OwnerModel.h; sourceTree = "<group>"; };
+		1825C09C2026D8C2003FB123 /* Formated_VipModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Formated_VipModel.h; sourceTree = "<group>"; };
+		1825C09D2026D8C2003FB123 /* ChsmalldayshopmodelModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChsmalldayshopmodelModel.h; sourceTree = "<group>"; };
+		1825C09E2026D8C2003FB123 /* TipsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipsModel.m; sourceTree = "<group>"; };
+		1825C09F2026D8C2003FB123 /* Recommend_UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recommend_UserModel.h; sourceTree = "<group>"; };
+		1825C0A02026D8C2003FB123 /* SpaceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceModel.h; sourceTree = "<group>"; };
+		1825C0A12026D8C2003FB123 /* ChsmalldayshopmodelModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChsmalldayshopmodelModel.m; sourceTree = "<group>"; };
+		1825C0A22026D8C2003FB123 /* TipsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipsModel.h; sourceTree = "<group>"; };
+		1825C0A52026D998003FB123 /* SpaceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceModel.m; sourceTree = "<group>"; };
+		1825C0A72026F135003FB123 /* CHSmallDayLabelCollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHSmallDayLabelCollView.h; sourceTree = "<group>"; };
+		1825C0A82026F135003FB123 /* CHSmallDayLabelCollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHSmallDayLabelCollView.m; sourceTree = "<group>"; };
+		1825C0AB20285D76003FB123 /* CHSmallDayShowUserCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHSmallDayShowUserCollectionViewCell.h; sourceTree = "<group>"; };
+		1825C0AC20285D76003FB123 /* CHSmallDayShowUserCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHSmallDayShowUserCollectionViewCell.m; sourceTree = "<group>"; };
+		1825C0AE20286345003FB123 /* UIImageView+Yuan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Yuan.h"; sourceTree = "<group>"; };
+		1825C0AF20286345003FB123 /* UIImageView+Yuan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Yuan.m"; sourceTree = "<group>"; };
+		1825C0B1202864F1003FB123 /* UIImage+Yuan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Yuan.h"; sourceTree = "<group>"; };
+		1825C0B2202864F1003FB123 /* UIImage+Yuan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Yuan.m"; sourceTree = "<group>"; };
+		1825C0B420286A99003FB123 /* CHSmalldayShowAllView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHSmalldayShowAllView.h; sourceTree = "<group>"; };
+		1825C0B520286A99003FB123 /* CHSmalldayShowAllView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHSmalldayShowAllView.m; sourceTree = "<group>"; };
+		1825C0B920287BE8003FB123 /* ChsmalldayshowusermodelModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChsmalldayshowusermodelModel.m; sourceTree = "<group>"; };
+		1825C0BA20287BE8003FB123 /* ChsmalldayshowusermodelModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChsmalldayshowusermodelModel.h; sourceTree = "<group>"; };
+		1827542B20188C890022BA35 /* CHTestTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHTestTag.h; sourceTree = "<group>"; };
+		1827542C20188C890022BA35 /* CHTestTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHTestTag.m; sourceTree = "<group>"; };
+		1827542E2018927F0022BA35 /* CHSmallShopModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHSmallShopModel.h; sourceTree = "<group>"; };
+		1827542F2018927F0022BA35 /* CHSmallShopModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHSmallShopModel.m; sourceTree = "<group>"; };
+		1827543120189CB80022BA35 /* CHSmallDayTagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHSmallDayTagView.h; sourceTree = "<group>"; };
+		1827543220189CB80022BA35 /* CHSmallDayTagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHSmallDayTagView.m; sourceTree = "<group>"; };
+		182754342018A73B0022BA35 /* CHSmallDayTagCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHSmallDayTagCollectionViewCell.h; sourceTree = "<group>"; };
+		182754352018A73B0022BA35 /* CHSmallDayTagCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHSmallDayTagCollectionViewCell.m; sourceTree = "<group>"; };
+		1827545D201DB2BE0022BA35 /* CHSmallDayTineLable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHSmallDayTineLable.h; sourceTree = "<group>"; };
+		1827545E201DB2BE0022BA35 /* CHSmallDayTineLable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHSmallDayTineLable.m; sourceTree = "<group>"; };
+		18275460201DFDC50022BA35 /* CHSmallDayCityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHSmallDayCityViewController.h; sourceTree = "<group>"; };
+		18275461201DFDC50022BA35 /* CHSmallDayCityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHSmallDayCityViewController.m; sourceTree = "<group>"; };
+		18275463201E01EA0022BA35 /* CHSmallDayCityCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHSmallDayCityCollectionViewCell.h; sourceTree = "<group>"; };
+		18275464201E01EA0022BA35 /* CHSmallDayCityCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHSmallDayCityCollectionViewCell.m; sourceTree = "<group>"; };
+		18275466201E0B6B0022BA35 /* CHSmallDayHeaderCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHSmallDayHeaderCollectionReusableView.h; sourceTree = "<group>"; };
+		18275467201E0B6B0022BA35 /* CHSmallDayHeaderCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHSmallDayHeaderCollectionReusableView.m; sourceTree = "<group>"; };
+		18275469201E24700022BA35 /* CHSmallDayHomePageTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHSmallDayHomePageTableViewController.h; sourceTree = "<group>"; };
+		1827546A201E24700022BA35 /* CHSmallDayHomePageTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHSmallDayHomePageTableViewController.m; sourceTree = "<group>"; };
+		1827546C201E25700022BA35 /* UIBarButtonItem+CHExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+CHExtension.h"; sourceTree = "<group>"; };
+		1827546D201E25700022BA35 /* UIBarButtonItem+CHExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+CHExtension.m"; sourceTree = "<group>"; };
 		188F2CE31FD6B53300132697 /* smallDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smallDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		188F2CE71FD6B53300132697 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		188F2CE91FD6B53300132697 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -72,8 +145,6 @@
 		188F2D831FF67EFB00132697 /* UIView+CHExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CHExtension.m"; sourceTree = "<group>"; };
 		188F2D851FF681B800132697 /* CHTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHTabBarViewController.h; sourceTree = "<group>"; };
 		188F2D861FF681B800132697 /* CHTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHTabBarViewController.m; sourceTree = "<group>"; };
-		188F2D881FF6831000132697 /* CHHomePageCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHHomePageCollectionViewController.h; sourceTree = "<group>"; };
-		188F2D891FF6831000132697 /* CHHomePageCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHHomePageCollectionViewController.m; sourceTree = "<group>"; };
 		188F2D8B1FF6CA8D00132697 /* CHNetWorking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHNetWorking.h; sourceTree = "<group>"; };
 		188F2D8C1FF6CA8D00132697 /* CHNetWorking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHNetWorking.m; sourceTree = "<group>"; };
 		18BE1B6820133BC000C5B7DB /* CHSmallDayBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHSmallDayBanner.h; sourceTree = "<group>"; };
@@ -82,10 +153,26 @@
 		18BE1B6C20136F2600C5B7DB /* CHSmallDayCBDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHSmallDayCBDView.m; sourceTree = "<group>"; };
 		18BE1B6E2014B04600C5B7DB /* CHSmallDayCBDCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHSmallDayCBDCollectionViewCell.h; sourceTree = "<group>"; };
 		18BE1B6F2014B04600C5B7DB /* CHSmallDayCBDCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHSmallDayCBDCollectionViewCell.m; sourceTree = "<group>"; };
+		18D5E21620289C50001D7480 /* CHSmallDayRecommendCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHSmallDayRecommendCollectionViewCell.h; sourceTree = "<group>"; };
+		18D5E21720289C50001D7480 /* CHSmallDayRecommendCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHSmallDayRecommendCollectionViewCell.m; sourceTree = "<group>"; };
+		18D5E21B2028C9C0001D7480 /* ChsmalldayreshopmodelModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChsmalldayreshopmodelModel.h; sourceTree = "<group>"; };
+		18D5E21D2028C9C0001D7480 /* ChsmalldayreshopmodelModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChsmalldayreshopmodelModel.m; sourceTree = "<group>"; };
+		18D5E2232028CBBC001D7480 /* CHSmallDayRe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHSmallDayRe.h; sourceTree = "<group>"; };
+		18D5E2242028CBBC001D7480 /* CHSmallDayRe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHSmallDayRe.m; sourceTree = "<group>"; };
 		18EA7CF02011CB950010F5EC /* CHBannerList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHBannerList.h; sourceTree = "<group>"; };
 		18EA7CF12011CB950010F5EC /* CHBannerList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHBannerList.m; sourceTree = "<group>"; };
 		18EA7CF320121B6A0010F5EC /* HomePageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageModel.h; sourceTree = "<group>"; };
 		18EA7CF420121B6A0010F5EC /* HomePageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageModel.m; sourceTree = "<group>"; };
+		18F52D8520233D750043D100 /* CHSmallDayCellHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHSmallDayCellHeader.h; sourceTree = "<group>"; };
+		18F52D8620233D750043D100 /* CHSmallDayCellHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHSmallDayCellHeader.m; sourceTree = "<group>"; };
+		18F52D88202343970043D100 /* CHSmallDayFourButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHSmallDayFourButtonView.h; sourceTree = "<group>"; };
+		18F52D89202343970043D100 /* CHSmallDayFourButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHSmallDayFourButtonView.m; sourceTree = "<group>"; };
+		18F52D8B202343D60043D100 /* CHSmallDayUpImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHSmallDayUpImage.h; sourceTree = "<group>"; };
+		18F52D8C202343D60043D100 /* CHSmallDayUpImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHSmallDayUpImage.m; sourceTree = "<group>"; };
+		18FC6346201EE804002BACA8 /* CHSmallDayHomePageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHSmallDayHomePageTableViewCell.h; sourceTree = "<group>"; };
+		18FC6347201EE804002BACA8 /* CHSmallDayHomePageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHSmallDayHomePageTableViewCell.m; sourceTree = "<group>"; };
+		18FC635C20203EC4002BACA8 /* CHSmallDayReFresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHSmallDayReFresh.h; sourceTree = "<group>"; };
+		18FC635D20203EC4002BACA8 /* CHSmallDayReFresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHSmallDayReFresh.m; sourceTree = "<group>"; };
 		24DAEF4F3FC98177B9E4A7AF /* libPods-smallDay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-smallDay.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3C75221BC1B2EB9873A2CF5 /* Pods-smallDay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smallDay.release.xcconfig"; path = "Pods/Target Support Files/Pods-smallDay/Pods-smallDay.release.xcconfig"; sourceTree = "<group>"; };
 		E8D262646F21342A82F99D29 /* Pods-smallDay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smallDay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-smallDay/Pods-smallDay.debug.xcconfig"; sourceTree = "<group>"; };
@@ -123,6 +210,37 @@
 				24DAEF4F3FC98177B9E4A7AF /* libPods-smallDay.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1825C09A2026D8C2003FB123 /* shopshow */ = {
+			isa = PBXGroup;
+			children = (
+				1825C0B920287BE8003FB123 /* ChsmalldayshowusermodelModel.m */,
+				1825C0BA20287BE8003FB123 /* ChsmalldayshowusermodelModel.h */,
+				1825C09B2026D8C2003FB123 /* Shop_OwnerModel.h */,
+				1825C09C2026D8C2003FB123 /* Formated_VipModel.h */,
+				1825C09D2026D8C2003FB123 /* ChsmalldayshopmodelModel.h */,
+				1825C0A12026D8C2003FB123 /* ChsmalldayshopmodelModel.m */,
+				1825C0A22026D8C2003FB123 /* TipsModel.h */,
+				1825C09E2026D8C2003FB123 /* TipsModel.m */,
+				1825C09F2026D8C2003FB123 /* Recommend_UserModel.h */,
+				1825C0A02026D8C2003FB123 /* SpaceModel.h */,
+				1825C0A52026D998003FB123 /* SpaceModel.m */,
+			);
+			path = shopshow;
+			sourceTree = "<group>";
+		};
+		1825C0AA20285D56003FB123 /* show */ = {
+			isa = PBXGroup;
+			children = (
+				1825C0AB20285D76003FB123 /* CHSmallDayShowUserCollectionViewCell.h */,
+				1825C0AC20285D76003FB123 /* CHSmallDayShowUserCollectionViewCell.m */,
+				1825C0B420286A99003FB123 /* CHSmalldayShowAllView.h */,
+				1825C0B520286A99003FB123 /* CHSmalldayShowAllView.m */,
+				18D5E21620289C50001D7480 /* CHSmallDayRecommendCollectionViewCell.h */,
+				18D5E21720289C50001D7480 /* CHSmallDayRecommendCollectionViewCell.m */,
+			);
+			name = show;
 			sourceTree = "<group>";
 		};
 		188F2CDA1FD6B53300132697 = {
@@ -206,6 +324,8 @@
 			isa = PBXGroup;
 			children = (
 				188F2D7D1FF67DE600132697 /* category */,
+				18FC635C20203EC4002BACA8 /* CHSmallDayReFresh.h */,
+				18FC635D20203EC4002BACA8 /* CHSmallDayReFresh.m */,
 			);
 			path = public;
 			sourceTree = "<group>";
@@ -213,7 +333,6 @@
 		188F2D6C1FF67DA700132697 /* bangdan */ = {
 			isa = PBXGroup;
 			children = (
-				188F2D6D1FF67DA700132697 /* controller */,
 				188F2D6E1FF67DA700132697 /* model */,
 				188F2D6F1FF67DA700132697 /* view */,
 			);
@@ -224,7 +343,8 @@
 			isa = PBXGroup;
 			children = (
 			);
-			path = controller;
+			name = controller;
+			path = ../../bangdan/controller;
 			sourceTree = "<group>";
 		};
 		188F2D6E1FF67DA700132697 /* model */ = {
@@ -254,8 +374,12 @@
 		188F2D711FF67DA700132697 /* controller */ = {
 			isa = PBXGroup;
 			children = (
-				188F2D881FF6831000132697 /* CHHomePageCollectionViewController.h */,
-				188F2D891FF6831000132697 /* CHHomePageCollectionViewController.m */,
+				18275460201DFDC50022BA35 /* CHSmallDayCityViewController.h */,
+				18275461201DFDC50022BA35 /* CHSmallDayCityViewController.m */,
+				18275469201E24700022BA35 /* CHSmallDayHomePageTableViewController.h */,
+				1827546A201E24700022BA35 /* CHSmallDayHomePageTableViewController.m */,
+				1825C09220261B29003FB123 /* CHSmallDayShowShopView.h */,
+				1825C09320261B29003FB123 /* CHSmallDayShowShopView.m */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -263,10 +387,16 @@
 		188F2D721FF67DA700132697 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				18D5E2192028C9C0001D7480 /* re */,
+				1825C09A2026D8C2003FB123 /* shopshow */,
 				18EA7CF02011CB950010F5EC /* CHBannerList.h */,
 				18EA7CF12011CB950010F5EC /* CHBannerList.m */,
 				18EA7CF320121B6A0010F5EC /* HomePageModel.h */,
 				18EA7CF420121B6A0010F5EC /* HomePageModel.m */,
+				1827542B20188C890022BA35 /* CHTestTag.h */,
+				1827542C20188C890022BA35 /* CHTestTag.m */,
+				1827542E2018927F0022BA35 /* CHSmallShopModel.h */,
+				1827542F2018927F0022BA35 /* CHSmallShopModel.m */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -274,12 +404,34 @@
 		188F2D731FF67DA700132697 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				1825C0AA20285D56003FB123 /* show */,
+				188F2D6D1FF67DA700132697 /* controller */,
 				18BE1B6820133BC000C5B7DB /* CHSmallDayBanner.h */,
 				18BE1B6920133BC000C5B7DB /* CHSmallDayBanner.m */,
 				18BE1B6B20136F2600C5B7DB /* CHSmallDayCBDView.h */,
 				18BE1B6C20136F2600C5B7DB /* CHSmallDayCBDView.m */,
 				18BE1B6E2014B04600C5B7DB /* CHSmallDayCBDCollectionViewCell.h */,
 				18BE1B6F2014B04600C5B7DB /* CHSmallDayCBDCollectionViewCell.m */,
+				1827543120189CB80022BA35 /* CHSmallDayTagView.h */,
+				1827543220189CB80022BA35 /* CHSmallDayTagView.m */,
+				182754342018A73B0022BA35 /* CHSmallDayTagCollectionViewCell.h */,
+				182754352018A73B0022BA35 /* CHSmallDayTagCollectionViewCell.m */,
+				1827545D201DB2BE0022BA35 /* CHSmallDayTineLable.h */,
+				1827545E201DB2BE0022BA35 /* CHSmallDayTineLable.m */,
+				18275463201E01EA0022BA35 /* CHSmallDayCityCollectionViewCell.h */,
+				18275464201E01EA0022BA35 /* CHSmallDayCityCollectionViewCell.m */,
+				18275466201E0B6B0022BA35 /* CHSmallDayHeaderCollectionReusableView.h */,
+				18275467201E0B6B0022BA35 /* CHSmallDayHeaderCollectionReusableView.m */,
+				18FC6346201EE804002BACA8 /* CHSmallDayHomePageTableViewCell.h */,
+				18FC6347201EE804002BACA8 /* CHSmallDayHomePageTableViewCell.m */,
+				18F52D8520233D750043D100 /* CHSmallDayCellHeader.h */,
+				18F52D8620233D750043D100 /* CHSmallDayCellHeader.m */,
+				18F52D88202343970043D100 /* CHSmallDayFourButtonView.h */,
+				18F52D89202343970043D100 /* CHSmallDayFourButtonView.m */,
+				18F52D8B202343D60043D100 /* CHSmallDayUpImage.h */,
+				18F52D8C202343D60043D100 /* CHSmallDayUpImage.m */,
+				1825C0A72026F135003FB123 /* CHSmallDayLabelCollView.h */,
+				1825C0A82026F135003FB123 /* CHSmallDayLabelCollView.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -351,6 +503,8 @@
 			children = (
 				188F2D851FF681B800132697 /* CHTabBarViewController.h */,
 				188F2D861FF681B800132697 /* CHTabBarViewController.m */,
+				1808F331202572740054AE5C /* CHSmallDayLoading.h */,
+				1808F332202572740054AE5C /* CHSmallDayLoading.m */,
 			);
 			path = other;
 			sourceTree = "<group>";
@@ -358,10 +512,27 @@
 		188F2D7D1FF67DE600132697 /* category */ = {
 			isa = PBXGroup;
 			children = (
+				1827546C201E25700022BA35 /* UIBarButtonItem+CHExtension.h */,
+				1827546D201E25700022BA35 /* UIBarButtonItem+CHExtension.m */,
 				188F2D821FF67EFB00132697 /* UIView+CHExtension.h */,
 				188F2D831FF67EFB00132697 /* UIView+CHExtension.m */,
+				1825C0AE20286345003FB123 /* UIImageView+Yuan.h */,
+				1825C0AF20286345003FB123 /* UIImageView+Yuan.m */,
+				1825C0B1202864F1003FB123 /* UIImage+Yuan.h */,
+				1825C0B2202864F1003FB123 /* UIImage+Yuan.m */,
 			);
 			path = category;
+			sourceTree = "<group>";
+		};
+		18D5E2192028C9C0001D7480 /* re */ = {
+			isa = PBXGroup;
+			children = (
+				18D5E21B2028C9C0001D7480 /* ChsmalldayreshopmodelModel.h */,
+				18D5E21D2028C9C0001D7480 /* ChsmalldayreshopmodelModel.m */,
+				18D5E2232028CBBC001D7480 /* CHSmallDayRe.h */,
+				18D5E2242028CBBC001D7480 /* CHSmallDayRe.m */,
+			);
+			path = re;
 			sourceTree = "<group>";
 		};
 		F4629F06C3CFFB8DE31D4CDA /* Pods */ = {
@@ -560,20 +731,48 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1825C0BB20287BE8003FB123 /* ChsmalldayshowusermodelModel.m in Sources */,
 				188F2D871FF681B800132697 /* CHTabBarViewController.m in Sources */,
+				1825C0B620286A99003FB123 /* CHSmalldayShowAllView.m in Sources */,
+				18275465201E01EA0022BA35 /* CHSmallDayCityCollectionViewCell.m in Sources */,
 				18EA7CF520121B6A0010F5EC /* HomePageModel.m in Sources */,
+				1825C0A92026F135003FB123 /* CHSmallDayLabelCollView.m in Sources */,
 				18BE1B702014B04600C5B7DB /* CHSmallDayCBDCollectionViewCell.m in Sources */,
+				18275462201DFDC50022BA35 /* CHSmallDayCityViewController.m in Sources */,
+				18D5E2252028CBBC001D7480 /* CHSmallDayRe.m in Sources */,
 				188F2D8D1FF6CA8D00132697 /* CHNetWorking.m in Sources */,
+				1827543320189CB80022BA35 /* CHSmallDayTagView.m in Sources */,
+				18FC635E20203EC4002BACA8 /* CHSmallDayReFresh.m in Sources */,
+				1825C0B020286345003FB123 /* UIImageView+Yuan.m in Sources */,
 				188F2CEE1FD6B53300132697 /* ViewController.m in Sources */,
 				188F2CEB1FD6B53300132697 /* AppDelegate.m in Sources */,
+				182754362018A73B0022BA35 /* CHSmallDayTagCollectionViewCell.m in Sources */,
 				18BE1B6A20133BC000C5B7DB /* CHSmallDayBanner.m in Sources */,
-				188F2D8A1FF6831000132697 /* CHHomePageCollectionViewController.m in Sources */,
+				18F52D8720233D750043D100 /* CHSmallDayCellHeader.m in Sources */,
+				1825C0AD20285D76003FB123 /* CHSmallDayShowUserCollectionViewCell.m in Sources */,
+				1827545F201DB2BE0022BA35 /* CHSmallDayTineLable.m in Sources */,
+				1808F333202572740054AE5C /* CHSmallDayLoading.m in Sources */,
+				1825C0B3202864F1003FB123 /* UIImage+Yuan.m in Sources */,
+				1825C0A62026D998003FB123 /* SpaceModel.m in Sources */,
 				18BE1B6D20136F2600C5B7DB /* CHSmallDayCBDView.m in Sources */,
+				18F52D8A202343970043D100 /* CHSmallDayFourButtonView.m in Sources */,
+				1827546B201E24700022BA35 /* CHSmallDayHomePageTableViewController.m in Sources */,
+				18275468201E0B6B0022BA35 /* CHSmallDayHeaderCollectionReusableView.m in Sources */,
+				18D5E21E2028C9C0001D7480 /* ChsmalldayreshopmodelModel.m in Sources */,
+				1825C0A42026D8C2003FB123 /* ChsmalldayshopmodelModel.m in Sources */,
 				188F2D841FF67EFB00132697 /* UIView+CHExtension.m in Sources */,
+				1827542D20188C890022BA35 /* CHTestTag.m in Sources */,
+				18F52D8D202343D60043D100 /* CHSmallDayUpImage.m in Sources */,
 				188F2D601FF6177300132697 /* CHWelcomeViewController.m in Sources */,
+				1825C09420261B29003FB123 /* CHSmallDayShowShopView.m in Sources */,
+				182754302018927F0022BA35 /* CHSmallShopModel.m in Sources */,
 				188F2D651FF6787100132697 /* CHNavController.m in Sources */,
 				18EA7CF22011CB950010F5EC /* CHBannerList.m in Sources */,
+				18FC6348201EE804002BACA8 /* CHSmallDayHomePageTableViewCell.m in Sources */,
+				1827546E201E25700022BA35 /* UIBarButtonItem+CHExtension.m in Sources */,
+				18D5E21820289C50001D7480 /* CHSmallDayRecommendCollectionViewCell.m in Sources */,
 				188F2CE81FD6B53300132697 /* main.m in Sources */,
+				1825C0A32026D8C2003FB123 /* TipsModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -726,7 +925,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 9UYJE5TN25;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/apple/Downloads/30Swifts/smallDay/smallDay/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = /Users/apple/Downloads/smallday/smallDay/smallDay/PrefixHeader.pch;
 				INFOPLIST_FILE = smallDay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = matcha00.me.smallDay;
@@ -742,7 +941,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 9UYJE5TN25;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/apple/Downloads/30Swifts/smallDay/smallDay/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = /Users/apple/Downloads/smallday/smallDay/smallDay/PrefixHeader.pch;
 				INFOPLIST_FILE = smallDay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = matcha00.me.smallDay;

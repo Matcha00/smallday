@@ -13,5 +13,5 @@
 @property (nonatomic, strong) NSArray *cbdArray;
 
 - (void)reloadData;
-
+@property (nonatomic, strong) void(^reloadDataBlock)();
 @end

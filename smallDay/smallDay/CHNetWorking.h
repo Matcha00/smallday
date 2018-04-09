@@ -47,6 +47,10 @@ typedef NS_ENUM(NSInteger, IllegalContentType) {
 
 - (void)getWithUrlString:(NSString *)url withParams:(NSDictionary *)params andBlock:(void (^)(id data, NSError *error))block;
 
+
+
+- (void)postWithurlString:(NSString *)url withParams:(NSDictionary *)params andBlock:(void (^)(id data, NSError *error))block;
+
 @end
 
 

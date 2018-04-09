@@ -39,22 +39,26 @@
 
 @end
 @interface CHCurrentModel : NSObject
-@property (nonatomic, strong) NSString *geohash;
-@property (nonatomic, strong) NSString *has_liked;
-@property (nonatomic, strong) NSString *ID;
-@property (nonatomic, strong) NSString *img;
-@property (nonatomic, strong) NSString *lat;
-@property (nonatomic, strong) NSString *likenum;
-@property (nonatomic, strong) NSString *lng;
-@property (nonatomic, strong) NSString *m_url;
-@property (nonatomic, strong) NSString *name;
-@property (nonatomic, strong) NSString *recommend_reason;
-@property (nonatomic, assign) NSInteger root_type;
-@property (nonatomic, strong) NSString *small_tip;
-@property (nonatomic, strong) CHAddress *addressModel;
-@property (nonatomic, strong) CHSpaceModel *spaceModel;
+@property (nonatomic, assign) NSInteger lng;
 @property (nonatomic, strong) NSString *title;
+@property (nonatomic, strong) NSString *ID;
+@property (nonatomic, strong) NSString *likenum;
+@property (nonatomic, assign) BOOL has_like;
+@property (nonatomic, strong) NSString *area;
+@property (nonatomic, strong) NSString *cbd;
+@property (nonatomic, assign) NSInteger lat;
+@property (nonatomic, strong) NSString *m_url;
+@property (nonatomic, assign) NSInteger root_type;
+@property (nonatomic, assign) NSInteger small_tip;
+@property (nonatomic, strong) NSString *recommend_reason;
+@property (nonatomic, strong) NSString *address;
+@property (nonatomic, strong) NSString *img;
 @property (nonatomic, strong) NSString *upt;
+@property (nonatomic, strong) NSString *avg_cost;
+@property (nonatomic, strong) NSString *geohash;
+@property (nonatomic, strong) NSString *name;
+@property (nonatomic, strong) CHVIPModel *vipModel;
+@property (nonatomic, strong) CHSpaceModel *spaceModel;
 
 
 @end
@@ -82,11 +86,11 @@
 
 @interface CHTagDataModel : NSObject
 @property (nonatomic, strong) NSString *icon;
-@property (nonatomic, strong) NSString *icon_map;
+@property (nonatomic, strong) NSString *iconMap;
 @property (nonatomic, strong) NSString *ID;
 @property (nonatomic, strong) NSString *name;
 @property (nonatomic, assign) NSInteger shopcnt;
-@property (nonatomic, assign) NSInteger tag_type;
+@property (nonatomic, assign) NSInteger tagType;
 @end
 
 

@@ -17,7 +17,7 @@
 @property (nonatomic, strong) UILabel *comNextLable;
 @property (nonatomic, strong) UICollectionView *cbdView;
 @property (nonatomic, strong) UIPageControl *cbdControl;
-@property (nonatomic, strong) NSArray *test;
+
 
 @end
 
@@ -71,10 +71,10 @@
         layout.minimumInteritemSpacing = 20;
         //最小两行之间的间距
         layout.minimumLineSpacing = 10;
-        layout.sectionInset = UIEdgeInsetsMake(0, 5, 0, 0);
+        layout.sectionInset = UIEdgeInsetsMake(10, 5, 50, 5);
         [layout setScrollDirection:UICollectionViewScrollDirectionHorizontal];
         
-        _cbdView = [[UICollectionView alloc]initWithFrame:CGRectMake(0, 50, CHScreenW, 260) collectionViewLayout:layout];
+        _cbdView = [[UICollectionView alloc]initWithFrame:CGRectMake(0, 50, CHScreenW, 320) collectionViewLayout:layout];
         _cbdView.backgroundColor = [UIColor whiteColor];
         _cbdView.showsVerticalScrollIndicator = false;
         _cbdView.showsHorizontalScrollIndicator = false;
@@ -88,17 +88,22 @@
     }
     
     if (!_cbdControl) {
-        _cbdControl = [[UIPageControl alloc]initWithFrame:CGRectMake(CHScreenW * 0.5 - 10, 340, 20, 20)];
+        _cbdControl = [[UIPageControl alloc]init];
         _cbdControl.numberOfPages = 2;
-        _cbdControl.pageIndicatorTintColor = [UIColor redColor];
+        _cbdControl.pageIndicatorTintColor = [UIColor lightGrayColor];
         _cbdControl.currentPage = 0;
-        _cbdControl.currentPageIndicatorTintColor = [UIColor blueColor];
+        _cbdControl.currentPageIndicatorTintColor = [UIColor grayColor];
         [self addSubview:_cbdControl];
         
     }
 }
 
-
+- (void)layoutSubviews
+{
+    [super layoutSubviews];
+    
+    self.cbdControl.frame = CGRectMake(CHScreenW * 0.5 - 10, 340, 20, 20);
+}
 
 
 - (void)pushShow
@@ -112,8 +117,8 @@
     
     
     
-    NSLog(@"%f------------", scrollView.contentOffset.x);
-    NSLog(@"%f=============", scrollView.width);
+   // NSLog(@"%f------------", scrollView.contentOffset.x);
+    //NSLog(@"%f=============", scrollView.width);
     
     _cbdControl.currentPage = page;
 }
@@ -135,7 +140,7 @@
 }
 //每一组有多少个cell
 -(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
-    return 10;
+    return _cbdArray.count;
 }
 
 
@@ -147,7 +152,7 @@
     NSLog(@"%@",indexPath);
 }
 
-- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath;
+- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 
 {
     CHSmallDayCBDCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"cbd" forIndexPath:indexPath];
@@ -179,9 +184,12 @@
 }
 
 
-
-
-
+- (void)setReloadDataBlock:(void (^)())reloadDataBlock
+{
+    _reloadDataBlock = reloadDataBlock;
+    
+    [_cbdView reloadData];
+}
 
 
 

@@ -26,7 +26,7 @@
     
     if (self) {
         self.backgroundColor = [UIColor whiteColor];
-        [self setSize:CGSizeMake(CHScreenW, 200)];
+        //[self setSize:CGSizeMake(CHScreenW, 200)];
     }
     
     return self;

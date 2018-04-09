@@ -9,7 +9,7 @@
 #import "CHTabBarViewController.h"
 #import "CHNavController.h"
 #import "ViewController.h"
-#import "CHHomePageCollectionViewController.h"
+#import "CHSmallDayHomePageTableViewController.h"
 
 @interface CHTabBarViewController ()
 
@@ -39,7 +39,7 @@
     // Do any additional setup after loading the view.
     
     
-    [self setupChildVc:[[ViewController alloc]init] title:@"小日子" image:@"wei-shouye" selectedImage:@"shouye"];
+    [self setupChildVc:[[CHSmallDayHomePageTableViewController alloc]init] title:@"小日子" image:@"wei-shouye" selectedImage:@"shouye"];
     [self setupChildVc:[[ViewController alloc]init] title:@"民宿" image:@"minsutabs" selectedImage:@"minsutab"];
     [self setupChildVc:[[ViewController alloc]init] title:@"榜单" image:@"wei-bangdan2" selectedImage:@"bangdan"];
     [self setupChildVc:[[ViewController alloc]init] title:@"我" image:@"wei-wode" selectedImage:@"wode"];

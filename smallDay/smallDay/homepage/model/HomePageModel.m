@@ -36,9 +36,13 @@
 
 @implementation CHTagDataModel
 
-+ (NSDictionary *)modelCustomPropertyMapper {
-    return @{@"ID" : @"id"};
++ (NSDictionary *)replacedKeyFromPropertyName
+{
+    return @{@"ID" : @"id",
+             @"iconMap" : @"icon_map",
+             @"tagType" : @"tag_type"};
 }
+
 
 @end
 
